@@ -1,7 +1,7 @@
 # Hotel
 
 ## Description
-An docent wilt graag een website die een reservering systeem heeft met 20 kamers.
+Ontwerp docent wilt graag een website die een reservering systeem heeft met 20 kamers.
 
 ## Table of Contents
 - [Installation](#installation)
