@@ -3,6 +3,11 @@
 ## Description
 Ontwerp docent wilt graag een website die een reservering systeem heeft met 20 kamers.
 
+## Note on Usage
+
+This project is part of a school assignment and is intended for educational purposes only. It is not licensed for external use or distribution. If you have questions about the project or its use, please contact the project author.
+
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
