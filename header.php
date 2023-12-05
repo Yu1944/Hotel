@@ -1,10 +1,7 @@
-
-
-<?php 
-//require "db.php";
-
-session_start();
+<?php
+require 'db.php';
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,14 +12,14 @@ session_start();
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="kamer_overicht.php">Blog Overview</a></li>
-            <li> <a href="">login</li>
-        </ul>
-    </nav>
+<body></body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="kamer_overicht.php">kamer_overicht</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </nav>
 </header>
-
 </html>
