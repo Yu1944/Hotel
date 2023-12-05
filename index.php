@@ -1,4 +1,3 @@
-
 <?php
 
 require 'header.php';
@@ -12,25 +11,43 @@ require 'header.php';
     <title>hotel</title>
 </head>
 <body>
-  <div class="slideshows">
+
+<br>
+
+<div class="slideshow-container">
+
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="images/img_nature_wide.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+  <img src="asset/istockphoto-104731717-612x612.jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="images/img_snow_wide.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="asset/download (1).jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="asset/img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="asset/download.jpg" style="width:100%">
 </div>
 
 </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+
+<br>
+
+<div class="text-homepage">
+    Elegante zakenhotel of sfeervolle getaway? inspirerende netwerkborrel of  een gezellige dinner? <br> Hotel MBORijnlan bewijst dat bussiness en pleasure hand in hand gaan.
+</div>
 </body>
+<footer> 
+<?php  ?>
+</footer>
 </html>

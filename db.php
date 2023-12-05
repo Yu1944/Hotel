@@ -1,26 +1,16 @@
-<?php 
-    class DatabaseConnection {
-      private $host = 'localhost';
-      private $username = 'root';
-      private $password = '';
-      private $dbname = 'hotel_mborijnland';
-      private $pdo;
+<?php
 
-      public function __construct() {
-        $dsn = "mysql:host={$this->host};dbname={$this->dbname}"; 
-        $options = [
-          PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-          PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        ];
-        $this->pdo = new PDO($dsn, $this->username, $this->password, $options);
-      }
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "hotel_mborijnland";
 
-      public function query($sql, $bind = array()) {
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute($bind);
-        return $stmt->fetchAll();
-      }
-  }
-
-    $db = new DatabaseConnection();
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+       echo '<h1 style="font-size: 50px; color: green;"><strong>Connected successfully</strong></h1>';
+} catch(PDOException $e) {
+    echo '<h1 style="font-size: 50px; color: red;"><strong>Connection failed: </strong></h1>' . $e->getMessage();
+}
 ?>
