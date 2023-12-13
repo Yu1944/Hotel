@@ -54,7 +54,7 @@ if (isset($_POST['register'])) {
         $sql = "INSERT INTO `user` (`firstname`, `lastname`, `email`, `password`) VALUES (:firstname, :lastname, :email, :password)";
         $stmt = $conn->prepare($sql);
 
-        // Bind parameters
+       
         $stmt->bindParam(':firstname', $firstname);
         $stmt->bindParam(':lastname', $lastname);
         $stmt->bindParam(':email', $email);

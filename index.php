@@ -51,17 +51,11 @@ include 'header.php';
   <span class="dot"></span> 
 </div>
 
-
-<br>
-
 <div class="text-homepage">
     Elegante zakenhotel of sfeervolle getaway? inspirerende netwerkborrel of  een gezellige dinner? <br> Hotel MBORijnlan bewijst dat bussiness en pleasure hand in hand gaan.
 </div>
-
-
 <script src="script.js"></script>
 </body>
 </html> 
-
 <?php include 'footer.php';?>
 </html>
