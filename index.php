@@ -1,18 +1,11 @@
 <?php
-
-require 'header.php';
-
+include 'header.php';
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hotel</title>
-</head>
+<html>
 <body>
 
-<br>
 
 <div class="slideshow-container">
 
@@ -57,14 +50,18 @@ require 'header.php';
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
-</div>
+
 
 <br>
 
 <div class="text-homepage">
     Elegante zakenhotel of sfeervolle getaway? inspirerende netwerkborrel of  een gezellige dinner? <br> Hotel MBORijnlan bewijst dat bussiness en pleasure hand in hand gaan.
 </div>
-<?php include "footer.php"; ?>
-</body>
 
+
+<script src="script.js"></script>
+</body>
+</html> 
+
+<?php include 'footer.php';?>
 </html>
