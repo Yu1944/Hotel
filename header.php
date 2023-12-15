@@ -16,10 +16,8 @@ require 'db.php';
         <nav>
             <ul>
             <li><a href="index.php"><img src="asset/mborijnland logo (1).png" style="width:15%"></a></li>
-                <li><a href="index.php">Home</a></li>
-
-               <li><a href="roomview.php">kamers</a></li>
-                <li><a href="login.php">Login</a></li>
+                <li><a href="roomview.php"><button>kamers</button></a></li>
+                <li><a href="login.php"><button>login</button></a></li>
             </ul>
         </nav>
     </header>
