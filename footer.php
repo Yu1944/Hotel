@@ -10,7 +10,7 @@ Include the CSS file -->
     </div>
     <div class="footer-item">
       <h1>Adres</h1>
-      <p><groen van prinsterersingel 52 <br> 2805 TE gouda</p>
+      <p><groen van prinsterersingel 52 <br> 2805 TEl gouda</p>
     </div>
     <div class="footer-item">
       <table>
