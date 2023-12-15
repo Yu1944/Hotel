@@ -1,4 +1,4 @@
-Include the CSS file -->
+
 <link rel="stylesheet" href="style.css">
 
 <footer class="footer">
