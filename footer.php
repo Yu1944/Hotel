@@ -16,7 +16,7 @@ Include the CSS file -->
       <table>
         <tbody>
           <tr>
-            <td><button>PRIVACY</button></td>
+             <td><a href="privacy.php"><button>PRIVACY</button></a></td>
           </tr>
         </tbody>
       </table>
